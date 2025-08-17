@@ -16,5 +16,5 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the Docker image
       run: |
-        docker image build -t Fast_MCP_Server:$(date +%s):v1 .
-        docker push Fast_MCP_Server:$(date +%s):v1
+        docker image build -t fast_mcp_server:$(date +%s):v1 .
+        docker push fast_mcp_server:$(date +%s):v1
